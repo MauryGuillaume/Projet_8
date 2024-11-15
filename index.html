@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Guillaume Maury.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guillaume Maury">
+    <meta name="keywords" content="Portfolio, cv, curriculum-vitae">
+
+    <!-- Liens vers le favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Liens vers le CSS -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Lien vers les polices Google Fonts (exemple avec Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Meta tag Open Graph Réseaux sociaux -->
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Portfolio Guillaume Maury.">
+    <meta property="og:image" content="url-de-l-image.jpg">
+    <meta property="og:url" content="https://votre-site.com">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <p>Guillaume Maury</p>
+            <nav>
+                <ul class="header-list">
+                    <li><a href="#about" class="list-header">Présentation</a></li>
+                    <li><a href="#realisations" class="list-header">Réalisations</a></li>
+                    <li><a href="#contact" class="list-header contact-button">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="bg-img-top">
+            <div class="background-opacity">
+                <section id="home">
+                    <div class="width-1000 home-content">
+                        <h1>Guillaume Maury - Développeur Web</h1>
+                        <a href="#contact" class="contact-button2">Me contacter</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+            
+
+        <div class="bg-img">
+            <div class="background-opacity">
+                <section id="about">          
+                    <div class="content-about-background">
+                        <div class="width-1000">
+                            <div class="content-about ">
+                                <h3 class="margin-10px">Guillaume Maury</h3>
+                                <p class="margin-10px">29 ANS</p>
+                                <p class="margin-10px">Développeur Web en reconversion</p>
+                                <p class="margin-10px">Avec un diplôme fraichement en poche, je suis à l'écoute de vos idées pour vous aider à les réaliser du mieux possible</p>
+                                <p class="margin-10px">Autonome et à la recherche de nouveaux défis, je suis prêt pour de projet qui me challengeront et me permettront de perfectionner mes connaissances.</p>
+                                <p class="margin-10px">Si vous cherchez un développeur à l'écoute et prêt à donner vie à vos tous vos projets n'hésitez pas à me contacter.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="competences">
+                    <div class="title-part">
+                        <h2>Compétences</h2>
+                    </div>
+
+                    <div class="competences-content-bg">
+                        <div class="competences-content width-1000">
+                            <div class="frontend">
+                                <img src="images/frontend.png" class="img-back-front">
+                                <h3>Front-end</h3>
+                                <p>HTML 5, CSS3 : Flexbox, Grid, animations CSS</p>
+                                <div class="spacer"></div>
+                                <p>JavaScript : Promises, Async/Await, gestion des événements</p>
+                                <div class="spacer"></div>
+                                <p>React</p>
+                                <div class="spacer"></div>
+                                <p>FrameWorks : Bootstrap, Vue, Vuetify</p>
+                            </div>
+
+                            <div class="backend">
+                                <img src="images/back.png" class="img-back-front">
+                                <h3>Back-end</h3>
+                                <p>Node.js : Gestion des middlewares, des routes, et intégration de bases de données</p>
+                                <div class="spacer"></div>
+                                <p>Bases de données : MySQL, MongoDB</p>
+                                <div class="spacer"></div>
+                                <p>Création et consommation d'API REST : authentification JWT, gestion des erreurs</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </section>
+        
+                <section id="realisations">
+                    <div class="title-part">
+                        <h2>Dernières réalisations</h2>
+                    </div>
+        
+                    <div class="realisations-content-background">
+                        <div class="width-1000">
+                            <div class="card-div">
+                                <!-- SITE TECHVIEW -->
+                                <div class="card-project">
+                                    <h3>Site Techview</h4>
+                                    <div class="img-project">
+                                        <img src="images/site_techview.png" alt="Image d'un des projets" class="img-project1">
+                                    </div>
+                                    
+                                    <div class="card-content">
+                                        <h4>Site vitrine de la société TECHVIEW</h5>
+                                        <p>Projet réalisé pour la société TECHVIEW 
+                                            <br>Utilisation de WordPress
+                                        </p>
+                                        <p>La société Techview avait besoin d'un site vitrine car le leur était daté, peu ergonomique et mal référencé. Je me suis donc occupé de leur créé un site plus récent et comprenant un référencement plus important.</p>
+                                    </div>
+                                </div>
+        
+                                <!-- PLATEFORME TECHVIEW -->
+                                <div class="card-project">
+                                    <h3>Plateforme Techview</h4>
+                                    <div class="img-project">
+                                        <img src="images/plateforme_techview.png" alt="Image d'un des projets" class="img-project1">
+                                    </div>
+                                    
+                                    <div class="card-content">
+                                        <h4>Plateforme métier pour les solutions de TECHVIEW</h5>
+                                        <p>Projet réalisé pour la société TECHVIEW 
+                                            <br>Reprise d'un code utilisant des frameworks Vue et Bootstrap
+                                        </p>
+                                        <p>La société Techview avait une plateforme déjà existante mais peu ergonomique et pas très utilisable pour les employés de la société. J'ai donc été en charge de réorganisé la plateforme pour la rendre plus accessible et créé de nouvelles pages et fonctionnalités pour centraliser les travaux des employés et leur faciliter le travail.</p>
+                                    </div>
+                                </div>
+        
+                                <!-- SITE SEREM -->
+                                <div class="card-project">
+                                    <h3>Site SEREM-SOCOREM</h4>
+                                    <div class="img-project">
+                                        <img src="images/site_serem.png" alt="Image d'un des projets" class="img-project1">
+                                    </div>
+                                    
+                                    <div class="card-content">
+                                        <h4>Site vitrine de la société SEREM-SOCOREM</h5>
+                                        <p>Projet réalisé pour la société SEREM-SOCOREM
+                                            <br>Utilisation de WordPress
+                                        </p>
+                                        <p>Après le rachat et l'ouverture de la filiale SEREM-SOCOREM le groupe ANDQO avait besoin d'un site vitrine pour cette filiale. J'ai donc été en charge de leur créé un site permettant à leurs clients de découvrir leurs produits et de pouvoir les commander.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>  
+            </div>
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div id="contact">
+            <div class="contact-title">
+                <h3>Me contacter</h3>
+            </div>
+            
+            <div class="mail-tel-footer">
+                <img src="images/tel.png" class="logo-mail-tel">
+                <p>06.65.06.54.11</p>
+            </div>
+            <div class="mail-tel-footer">
+                <img src="images/mail.png" class="logo-mail-tel">
+                <p>gmaurytechview@gmail.com</p>
+            </div>
+        </div>
+        
+        <p class="reserved">&copy; 2024 Guillaume Maury. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
