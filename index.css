@@ -99,7 +99,7 @@ header {
 /******* MAIN ******/
 /**** HOME ****/
 #home {
-    height: 800px;
+    height: 100vh;
     margin-top: 60px;
 }
 
@@ -108,7 +108,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 100vh;
     color: white;
 }
 
@@ -250,6 +250,10 @@ header {
     height: auto;
 }
 
+.lien-site {
+    margin-top: 10px;
+}
+
 /*************************/
 /******** FOOTER *********/
 footer {
@@ -303,10 +307,6 @@ footer {
     }
     #home {
         margin-top: 30px;
-        height: 300px;
-    }
-    .home-content {
-        height: 300px;
     }
     .home-content h1 {
         font-size: 20px;
